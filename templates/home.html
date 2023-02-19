@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style1.css') }}">
+    <title>Member Zone</title>
+</head>
+<body align="center">
+    <div class="login-box">
+        <h1>For Costumers</h1>
+        <form action="new-user">
+            <input type="submit" class="btn" name="" value="Register">
+        </form>
+        <form action="existing-user">
+            <input type="submit" class="btn" name="" value="Log In">
+        </form>
+
+        <div class="atm-branches">
+            <h2>ATM Branches</h2>
+            <ul>
+                <li><a href="https://www.google.com/maps/search/?api=1&query=Mumbai">Mumbai</a></li>
+                <li><a href="https://www.google.com/maps/search/?api=1&query=Pune">Pune</a></li>
+                <li><a href="https://www.google.com/maps/search/?api=1&query=Bangalore">Bangalore</a></li>
+                <li><a href="https://www.google.com/maps/search/?api=1&query=Hyderabad">Hyderabad</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
